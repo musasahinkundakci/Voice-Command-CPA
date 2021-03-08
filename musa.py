@@ -1,5 +1,5 @@
-import speech_recognition as sr #söylediğimiz şeyleri anlayıp bilgisayara ses olarak dönüştürmemizi salıyo bir obje ye atıyorız
-import time #gecikme süresi için
+import speech_recognition as sr
+import time 
 from komut import Komut
 
 r=sr.Recognizer()
